@@ -1,0 +1,157 @@
+{
+  "gameTemplate": {
+    "Game Title":"Celeste",
+    "Game Description":"Celeste is a story-driven platformer where a young woman named Madeline climbs the mysterious Celeste Mountain. Along the way, she confronts her inner demons—literal and metaphorical—battling anxiety, self-doubt, and fear. The game combines tight, challenging platforming with a heartfelt narrative that explores mental health and personal growth. Its pixel art, music, and gameplay all work together to deliver an emotional and rewarding experience.",
+    "Genre":"Platformer",
+    "ESRBRating":"Everyone",
+    "ComplexityScore":"Medium",
+    "minJoystick": 1,
+    "minButton":1,
+    "minRequirementsANDorOR":"and",
+    "videoLink":"",
+    "Actions": [
+      {
+        "name": "Move",
+        "isOptional": false,
+        "description": "Moving the joystick horizontally will cause Madaline (The player) to move left and right. Moving the joystick vertically will cause Madaline to jump or crouch\n While dashing this control is also used to determin where to go"
+      },
+      {
+        "name": "Dash",
+        "isOptional": false,
+        "description": "Pressing will stop time and allow you to dash in any direction. You will have to be holding this button while you select which way to dash\n When you have selected which way you want to go, release this button!"
+      }
+    ],
+    "OnNintendo":true,
+    "OnXbox":true,
+    "OnPlaystation":true,
+    "OnPC":true,
+    "nintendo" : {
+      "buttons": {
+        "rightTrigger": "",
+        "leftStick": "Move",
+        "leftBumper": "",
+        "leftTrigger": "",
+        "leftStickClick": "",
+        "dpadUp": "",
+        "dpadRight": "",
+        "dpadLeft": "",
+        "dpadDown": "",
+        "startButton": "",
+        "backButton": "",
+        "rightBumper": "",
+        "yButton": "Dash",
+        "xButton": "Dash",
+        "aButton": "",
+        "bButton": "",
+        "rightStickClick": "",
+        "rightStick": ""
+      }
+    },
+    "xbox": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "Move",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "aButton": "",
+        "bButton": "",
+        "xButton": "Dash",
+        "yButton": "Dash",
+        "startButton": "",
+        "backButton": "",
+        "xboxButton": ""
+      }
+    },
+    "playstation": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "Move",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "crossButton": "",
+        "circleButton": "Dash",
+        "squareButton": "Dash",
+        "triangleButton": "",
+        "optionsButton": "",
+        "shareButton": "",
+        "psButton": "",
+        "touchpadClick": ""
+      }
+    },
+    "Settings":[
+      {
+        "name": "Grab Mode",
+        "isOptional":false,
+        "setTo": "Invert",
+        "description": "Inverts the base game's grab. Allows you to auto stick to walls first and then jump off of them",
+        "link":""
+      },
+      {
+        "name": "Rebind Jump Action",
+        "isOptional":false,
+        "setTo": "Left Joystick Up",
+        "description": "This allows you to jump with just the joystick. Select Jump from Control Config and press up with your joystick. This will bind it to be used for jumping",
+        "link":""
+      },
+      {
+        "name": "Assist Mode",
+        "isOptional":false,
+        "setTo": "ON",
+        "description": "Assist Mode allows you to make the game easier through certain settings\nWhile on the screen for selecting a file, select a file and below in small text with Continue and Delete, You can turn assist mode on",
+        "link":""
+      },
+      {
+        "name": "Dash Assist",
+        "isOptional":false,
+        "setTo": "ON",
+        "description":"Dash Assist allows you to pause the game while dashing and select the direction you want to travel in.",
+        "link":""
+      },
+      {
+        "name": "Game Speed",
+        "isOptional":false,
+        "setTo": "50%-100%",
+        "description": "Allows you to slow the game down to perform more actions in a shorter time window",
+        "link":""
+      },
+      {
+        "name": "Infinite Stamina",
+        "isOptional":true,
+        "setTo": "ON",
+        "description": "Allows you to hang onto walls forever",
+        "link":""
+      },
+      {
+        "name": "Air Dashes",
+        "isOptional":true,
+        "setTo": "Default - Infinite",
+        "description": "Gives the player infinite dashes",
+        "link":""
+      },
+      {
+        "name": "Invincibility",
+        "isOptional":true,
+        "setTo": "false",
+        "description": "Removes the player’s ability to die",
+        "link":""
+      }
+    ]
+  }
+}
+

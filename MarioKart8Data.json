@@ -1,0 +1,121 @@
+{
+  "gameTemplate": {
+    "Game Title":"Mario Kart 8",
+    "Game Description":"Mario Kart 8 Deluxe is the ultimate racing experience on Nintendo Switch, featuring 96 tracks, a huge cast of characters, and exciting modes like classic races and revamped battles. With local and online multiplayer, new items, and accessible controls, it’s perfect for both casual players and competitive racers",
+    "Genre":"Racing",
+    "ESRBRating":"Everyone",
+    "ComplexityScore":"Low",
+    "minJoystick": 1,
+    "minButton":2,
+    "minRequirementsANDorOR":"or",
+    "videoLink":"",
+    "Actions": [
+      {
+        "name": "steer",
+        "isOptional": false,
+        "description": "The Left Joystick is responsible for moving left and right but, with the Nintendo Adaptive Controller, plug two buttons into the sockets with ←/→ icons.\nOne for moving right and one for moving left!"
+      },
+      {
+        "name": "useItem",
+        "isOptional": true,
+        "description": "Tap to use an item. Item’s appear at the top left of your screen after smashing into floating mystery cubes on the track!\nSome items may require you to tap multiple times"
+      }
+    ],
+    "OnNintendo":true,
+    "OnXbox":false,
+    "OnPlaystation":false,
+    "nintendo" : {
+      "buttons": {
+        "rightTrigger": "",
+        "leftStick": "steer",
+        "leftBumper": "useItem",
+        "leftTrigger": "",
+        "leftStickClick": "",
+        "dpadUp": "",
+        "dpadRight": "",
+        "dpadLeft": "",
+        "dpadDown": "",
+        "startButton": "",
+        "backButton": "",
+        "rightBumper": "",
+        "yButton": "",
+        "xButton": "",
+        "aButton": "",
+        "bButton": "",
+        "rightStickClick": "",
+        "rightStick": ""
+      }
+    },
+    "xbox": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "aButton": "",
+        "bButton": "",
+        "xButton": "",
+        "yButton": "",
+        "startButton": "",
+        "backButton": "",
+        "xboxButton": ""
+      }
+    },
+    "playstation": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "crossButton": "",
+        "circleButton": "",
+        "squareButton": "",
+        "triangleButton": "",
+        "optionsButton": "",
+        "shareButton": "",
+        "psButton": "",
+        "touchpadClick": ""
+      }
+    },
+    "Settings":[
+      {
+        "name": "autoAccelerate",
+        "isOptional":false,
+        "setTo": "ON",
+        "description": "Karts will accelerate without requiring to hold down any buttons.\nThis setting can be found during the screen where you select your kart. Press + or - button and then press R",
+        "link":""
+      },
+      {
+        "name": "smartSteer",
+        "isOptional":false,
+        "setTo": "ON",
+        "description":"Keeps Kart on track and prevents falling off. It does not follow ideal path it is still possible to fall off in certain cases)\nThis setting can be found during the screen where you select your kart. Press + or - button and then press L",
+        "link":""
+      },
+      {
+        "name": "motionControl",
+        "isOptional":false,
+        "setTo": "OFF",
+        "description": "Allows for steering by rotating controller left and right\nThis setting can be found during the screen where you select your kart. Press + or - button and then press Y",
+        "link":""
+      }
+    ]
+  }
+}
+
