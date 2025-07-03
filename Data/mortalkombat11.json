@@ -1,0 +1,139 @@
+{
+  "gameTemplate": {
+    "Game Title":"Mortal Combat",
+    "Game Description":"Mortal Kombat 11 is a cinematic fighting game where heroes battle Kronika, the Keeper of Time, to prevent a timeline reset. It introduces new mechanics like Fatal Blows and Krushing Blows, along with deep character customization. Featuring a strong story mode, rotating challenges, and sharp visuals, it offers a polished experience—though some criticized its grind and microtransactions.",
+    "Genre":"Fighting",
+    "ESRBRating":"M for Mature 17+",
+    "ComplexityScore":"High",
+    "minJoystick": 1,
+    "minButton":3,
+    "minRequirementsANDorOR":"and",
+    "videoLink":"",
+    "Actions": [
+      {
+        "name": "Movement",
+        "isOptional": false,
+        "description": ""
+      },
+      {
+        "name": "Front Kick",
+        "isOptional": false,
+        "description": "use at same time as (X) to do a throw attack, and in sequence with (X) to perform special moves"
+      },
+      {
+        "name": "Front Punch",
+        "isOptional": false,
+        "description": "use at same time as (A) to do a throw attack, and in sequence with (A) to perform special moves"
+      },
+      {
+        "name": "Block",
+        "isOptional": false,
+        "description": "combine with crouch to block low attacks"
+      },
+      {
+        "name": "Back Kick",
+        "isOptional": true,
+        "description": "Different from other attack options. increases repertoire of attacks"
+      },
+      {
+        "name": "Back Punch",
+        "isOptional": true,
+        "description": "Different from other attack options. increases repertoire of attacks"
+      },
+      {
+        "name": "Fatal Blow",
+        "isOptional": true,
+        "description": "Different from other attack options. increases repertoire of attacks"
+      },
+      {
+        "name": "Throw",
+        "isOptional": true,
+        "description": "Can be replaced by pressing (A) and (X) together simultaneously"
+      }
+    ],
+    
+    "OnNintendo":false,
+    "OnXbox":true,
+    "OnPlaystation":false,
+    "OnPC":false,
+    "nintendo" : {
+      "buttons": {
+        "rightTrigger": "",
+        "leftStick": "",
+        "leftBumper": "",
+        "leftTrigger": "",
+        "leftStickClick": "",
+        "dpadUp": "",
+        "dpadRight": "",
+        "dpadLeft": "",
+        "dpadDown": "",
+        "startButton": "",
+        "backButton": "",
+        "rightBumper": "",
+        "yButton": "",
+        "xButton": "",
+        "aButton": "",
+        "bButton": "",
+        "rightStickClick": "",
+        "rightStick": ""
+      }
+    },
+    "xbox": {
+      "buttons": {
+        "rightTrigger": "Block",
+        "leftTrigger": "",
+        "rightBumper": "Fatal Blow",
+        "leftBumper": "Fatal Blow",
+        "leftStick": "Movement",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "aButton": "Front Kick",
+        "bButton": "Back Kick",
+        "xButton": "Front Punch",
+        "yButton": "Back Punch",
+        "startButton": "",
+        "backButton": "",
+        "xboxButton": ""
+      }
+    },
+    "playstation": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "crossButton": "",
+        "circleButton": "",
+        "squareButton": "",
+        "triangleButton": "",
+        "optionsButton": "",
+        "shareButton": "",
+        "psButton": "",
+        "touchpadClick": ""
+      }
+    },
+    "Settings":[
+      {
+        "name": "Difficulty",
+        "isOptional":false,
+        "setTo": "Very Easy - Medium",
+        "description": "Controls difficulty of AI controlled fighters: Very Easy, Easy, Medium, Hard, Very Hard",
+        "link":""
+      }
+    ]
+  }
+}
+
