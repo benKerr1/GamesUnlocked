@@ -8,7 +8,7 @@
     "minJoystick": 1,
     "minButton":1,
     "minRequirementsANDorOR":"and",
-    "videoLink":"https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1",
+    "videoLink":"",
     "Actions": [
       {
         "name": "Move",
@@ -100,7 +100,7 @@
         "isOptional":false,
         "setTo": "Invert",
         "description": "Inverts the base game's grab. Allows you to auto stick to walls first and then jump off of them",
-        "link":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        "link":""
       },
       {
         "name": "Rebind Jump Action",
