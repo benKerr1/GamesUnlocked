@@ -1,0 +1,107 @@
+{
+  "gameTemplate": {
+    "Game Title":"EA Sports FC 24",
+    "Game Description":"EA Sports FC 24 is the 2024 iteration of the FIFA series, delivering dynamic, realistic football gameplay, bringing the intensity of real football to your fingertips.\nThis game is suitable for all ages with a rating of E for Everyone and is available on all major gaming platforms.",
+    "Genre":"Sports",
+    "ESRBRating":"E for Everyone",
+    "ComplexityScore":"Low",
+    "minJoystick": 1,
+    "minButton":1,
+    "minRequirementsANDorOR":"and",
+    "videoLink":"https://youtu.be/88KgoRQ8r9A",
+    "Actions": [
+      {
+        "name": "Movement",
+        "isOptional": false,
+        "description": "Move the left joystick to move the selected player around on the football field"
+      },
+      {
+        "name": "Action Button",
+        "isOptional": false,
+        "description": "Press A to preform whatever action is currently best suited for your position. Pass when you see an open player or shoot when you are close to the net! You can hold down to determin the power of your shot"
+      }
+    ],
+    "OnNintendo":false,
+    "OnXbox":true,
+    "OnPlaystation":false,
+    "nintendo" : {
+      "buttons": {
+        "rightTrigger": "",
+        "leftStick": "",
+        "leftBumper": "",
+        "leftTrigger": "",
+        "leftStickClick": "",
+        "dpadUp": "",
+        "dpadRight": "",
+        "dpadLeft": "",
+        "dpadDown": "",
+        "startButton": "",
+        "backButton": "",
+        "rightBumper": "",
+        "yButton": "",
+        "xButton": "",
+        "aButton": "",
+        "bButton": "",
+        "rightStickClick": "",
+        "rightStick": ""
+      }
+    },
+    "xbox": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "Movement",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "aButton": "Action Button",
+        "bButton": "",
+        "xButton": "",
+        "yButton": "",
+        "startButton": "",
+        "backButton": "",
+        "xboxButton": ""
+      }
+    },
+    "playstation": {
+      "buttons": {
+        "rightTrigger": "",
+        "leftTrigger": "",
+        "rightBumper": "",
+        "leftBumper": "",
+        "leftStick": "",
+        "leftStickClick": "",
+        "rightStick": "",
+        "rightStickClick": "",
+        "dpadUp": "",
+        "dpadDown": "",
+        "dpadLeft": "",
+        "dpadRight": "",
+        "crossButton": "",
+        "circleButton": "",
+        "squareButton": "",
+        "triangleButton": "",
+        "optionsButton": "",
+        "shareButton": "",
+        "psButton": "",
+        "touchpadClick": ""
+      }
+    },
+    "Settings":[
+      {
+        "name": "One-Button mode",
+        "isOptional":false,
+        "setTo": "ON",
+        "description": "n this mode, the usual pass button will now act as the button for all actions, except movement.\nWhen you press the action button, the game will enact whatever action it deems appropriate, whether it be pass, shoot, or tackle.\nYou can still control the power of kicks by holding it down for longer or shorter depending on what you need\nYou will also switch players automatically depending on where the ball is.\nYou can activate this control scheme by either going to Settings→Customise Control and selecting it there or you can do so by clicking the button for Customise Controls while selecting a side, which you can see is Y at the bottom of this demo",
+        "link":""
+      }
+    ]
+  }
+}
+
