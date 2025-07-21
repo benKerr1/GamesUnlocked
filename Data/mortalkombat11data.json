@@ -8,7 +8,7 @@
     "minJoystick": 1,
     "minButton":3,
     "minRequirementsANDorOR":"and",
-    "videoLink":"",
+    "videoLink":"https://youtu.be/0JwMYENiZqI",
     "Actions": [
       {
         "name": "Movement",
